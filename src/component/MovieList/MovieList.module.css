@@ -1,0 +1,26 @@
+.MovieList {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  margin: auto 20px;
+}
+
+@media screen and (max-width: 414px) {
+  .MovieList {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (min-width: 415px) and (max-width: 768px) {
+  .MovieList {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .MovieList {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
