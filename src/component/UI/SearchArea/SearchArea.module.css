@@ -1,0 +1,11 @@
+.Search {
+  height: 2rem;
+  max-width: 100%;
+  text-align: center;
+  margin: 1rem;
+}
+
+.Form {
+  height: 100%;
+  width: 50%;
+}

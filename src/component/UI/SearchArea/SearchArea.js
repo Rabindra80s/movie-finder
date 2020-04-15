@@ -1,6 +1,6 @@
 import React from 'react';
 
-import classes from './Search.module.css';
+import classes from './SearchArea.module.css';
 
 const SearchArea = (props) => {
     return (

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import SearchArea from '../../component/UI/Search/Search';
+import SearchArea from '../../component/UI/SearchArea/SearchArea';
 import MovieList from '../../component/MovieList/MovieList';
 import MovieInfo from '../../component/MovieList/MovieInfo/MovieInfo';
 import Pagination from '../../component/UI/Pagination/Pagination';
