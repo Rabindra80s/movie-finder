@@ -8,3 +8,21 @@
   text-align: justify;
   overflow: scroll;
 }
+
+@media screen and (max-width: 414px) {
+  .MovieInfo {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 415px) and (max-width: 768px) {
+  .MovieInfo {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .MovieInfo {
+    width: 40%;
+  }
+}
